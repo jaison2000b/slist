@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--List Format Generator, made for bay area shows Steve Kopee's list--
+        All Hail The List
+        No rights Reserved -J 2024
+    "Real Bay Shit", Fuck the Hippies, Fuck the Anarchists, Fuck the techies-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Show Listings</title>
+    <style>
+        /* Your CSS styles here */
+        .input-container {
+            width: 30%;
+            margin: 20px auto;
+        }
+
+        .show-listing {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #cp-box {
+            position: absolute;
+            top: 3%;
+            left: 5%;
+            width: 30%;
+            font-size: .7em;
+            }
+        #cp-box-2 {
+            position: absolute;
+            top: 3%;
+            right: 3%;
+            width: 30%;
+            font-size: .7em;
+            }
+            
+    </style>
+</head>
+<body>
+    <div class="input-container">
+        <label for="venue">Venue:</label>
+        <input type="text" id="venue" autocomplete="off" required list="venueSuggestions">
+    </div>
+
+    <div class="input-container">
+        <label for="date">Date:</label>
+        <input type="text" id="date" placeholder="MM/DD/YYYY" required>
+    </div>
+
+    <div class="input-container">
+        <label for="bands">Bands:</label>
+        <textarea id="bands" rows="3" required></textarea>
+    </div>
+
+    <div class="input-container">
+        <label for="age">Age:</label>
+        <select id="age" required>
+            <option value="a/a">All Ages</option>
+            <option value="21+">21+</option>
+            <option value="18+">18+</option>
+            <option value="custom">Other</option>
+        </select>
+        <input type="text" id="customAge" style="display: none;" placeholder="Enter age">
+    </div>
+
+    <div class="input-container">
+        <label for="cost">Cost:</label>
+        <input type="text" id="cost" placeholder="Enter cost">
+    </div>
+
+    <div class="input-container">
+        <label for="time">Time:</label>
+        <input type="text" id="hour" placeholder="HH" style="width: 30px;">
+        <input type="text" id="minute" placeholder="MM" style="width: 30px;">
+        <select id="ampm">
+            <option value="am">am</option>
+            <option value="pm" selected>pm</option> <!-- Default to PM -->
+        </select>
+    </div>
+
+    <div class="input-container">
+        <label for="symbols">Symbols:</label>
+        <input type="checkbox" id="symbolDollar" value="$">$
+        <input type="checkbox" id="symbolAt" value="@">@
+        <input type="checkbox" id="symbolCarrot" value="^">^
+        <input type="checkbox" id="symbolPound" value="#">#
+    </div>
+
+    <div class="input-container">
+        <label for="additionalInfo">Additional Information:</label>
+        <textarea id="additionalInfo" rows="3"></textarea>
+    </div>
+
+    <div class="input-container">
+        <button type="button" id="addShow">Add Show</button>
+    </div>
+
+    <div id="cp-box">
+         <p class="copy-text" data-copy=""></p>
+         <p class="copy-text" data-copy="3rd and Army Skatepark S.F.">3rd & Army</p>
+         <p class="copy-text" data-copy="9 Lives Warehouse Oakland">9 Lives</p>
+         <p class="copy-text" data-copy="Arlene Francis Center 99 6th St. Santa Rosa">Arlene Francis</p>
+         <p class="copy-text" data-copy="the Berkeley Art House 2905 Shattack Ave">Berkeley art house</p>
+        <p class="copy-text" data-copy="The Caravan 98 Almaden San Jose">Caravan</p>
+         <p class="copy-text" data-copy="Crybaby Oakland 1928 Telegraph Ave">Crybaby</p>
+        <p class="copy-text" data-copy="The Depot 1650 Holloway SF State">Depot</p>
+        
+        <p class="copy-text" data-copy="First Church of The Buzzard 2601 Adaline St. Oakland">First Church</p>
+        <p class="copy-text" data-copy="Gestalt S.F., 3159 16th St.">Gestalt</p>
+        <p class="copy-text" data-copy="High Voltage 1824 W. San Carlos St. San Jose">High Voltage</p>
+        <p class="copy-text" data-copy="Homestead Bowl Cupertino">Homestead Bowl</p>
+        <p class="copy-text" data-copy="Iron Tuna Studios 37500 Centralmont Pl. Fremont">Iorn Tuna</p>
+         <p class="copy-text" data-copy="the Knockout S.F">K.O.</p>
+        </div>
+    <div id="cp-box-2">
+         <p class="copy-text" data-copy="Limo 684 S. 2nd Street San Jose">Limo SJ</p>
+        <p class="copy-text" data-copy="the Little Hill Lounge 10753 San Pablo Ave. El Cerrito">Little Hill</p>
+        <p class="copy-text" data-copy="Mothbelly Gallery 912 Larkin St. S.F.">Mothbelly</p>
+        <p class="copy-text" data-copy=" The New Farm 10 Cargo Way S.F.">New Farm</p>
+       
+         <p class="copy-text" data-copy="Oakland Secret Gallery">Oakland Secret</p>
+        <p class="copy-text" data-copy="Open San Jose 38 S. 2nd St.">Open SJ</p>
+        <p class="copy-text" data-copy="The Prop Shop Richmond 518 11th St.">Prop Shop</p>
+        <p class="copy-text" data-copy="">Spacement</p>
+        <p class="copy-text" data-copy="Spire Church 825 Athens Ave. Oakland">Spire</p>
+        <p class="copy-text" data-copy="Stay Gold Deli Oakland">Stay Gold</p>
+        <p class="copy-text" data-copy="the Tamarack Oakland">Tamarack</p>
+         
+         <p class="copy-text" data-copy="Thrillhouse Records S.F.">Thrillhouse</p>
+        
+        <p class="copy-text" data-copy="Victory Stables 2328 San Pablo Ave Oakland">Victory Stables</p>
+        <p class="copy-text" data-copy="the Vet's Hall 846 Front Street, Santa Cruz">SC Vet's Hall</p>
+    
+        </div>
+
+    <p id="showList"></p>
+
+    <datalist id="venueSuggestions"></datalist>
+    <datalist id="bandSuggestions"></datalist>
+
+    
+
+   
+    <script>
+// JavaScript code to handle form submission and output generation
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to generate a show listing
+    function generateShowListing() {
+        const venue = document.getElementById('venue').value;
+        const dateInput = document.getElementById('date').value;
+        const [month, day] = dateInput.split('/').map(Number);
+
+        // Function to convert month number to 3-letter month abbreviation
+        const monthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+        const monthAbbreviation = monthNames[month - 1];
+
+        // Calculate day of the week using known reference date (Jan 1, 2024 is a Monday)
+        function calculateDayOfWeek(month, day) {
+            const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+            let dayOfYear = day;
+
+            for (let i = 0; i < month - 1; i++) {
+                dayOfYear += daysInMonth[i];
+            }
+
+            const referenceDayOfWeek = 1; // Jan 1, 2024 is a Monday (day index 1)
+            const dayOfWeekIndex = (referenceDayOfWeek + dayOfYear - 1) % 7;
+            const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+            return days[dayOfWeekIndex];
+        }
+
+        const dayOfWeek = calculateDayOfWeek(month, day);
+
+        const bandsTextarea = document.getElementById('bands');
+        const bands = bandsTextarea.value.replace(/\n/g, ', ').trim();
+        const age = document.getElementById('age').value;
+        const customAge = document.getElementById('customAge').value;
+        const cost = document.getElementById('cost').value;
+        const hour = document.getElementById('hour').value;
+        const minute = document.getElementById('minute').value;
+        const ampm = document.getElementById('ampm').value;
+        const additionalInfo = document.getElementById('additionalInfo').value;
+        const symbols = Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(checkbox => checkbox.value);
+
+        // Format the time
+        let time = hour;
+        if (minute) {
+            time += ':' + minute.padStart(2, '0');
+        }
+        time += ampm;
+
+        // Format the cost
+        const formattedCost = cost ? (cost === '0' ? 'free' : '$' + cost) : '';
+
+        const showListing = `${monthAbbreviation} ${'  '} ${day} ${dayOfWeek} ${bands}\n\t ${'at'} ${venue} ${age} ${formattedCost} ${time} ${symbols.join(' ')} ${additionalInfo}`;
+
+        return showListing;
+    }
+
+    // Event listener for the "Add Show" button
+    document.getElementById('addShow').addEventListener('click', function() {
+        const showListing = generateShowListing();
+        const showList = document.getElementById('showList');
+        const showDiv = document.createElement('div');
+        showDiv.classList.add('show-listing');
+        showDiv.textContent = showListing;
+        showList.appendChild(showDiv);
+
+        // Clear form fields
+        document.getElementById('venue').value = '';
+        document.getElementById('date').value = '';
+        document.getElementById('bands').value = '';
+        document.getElementById('age').value = 'a/a';
+        document.getElementById('customAge').value = '';
+        document.getElementById('cost').value = '';
+        document.getElementById('hour').value = '';
+        document.getElementById('minute').value = '';
+        document.getElementById('ampm').value = 'pm';
+        document.getElementById('additionalInfo').value = '';
+        document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => checkbox.checked = false);
+    });
+
+    // Retrieve venue data from the XML script tag
+    const xmlScript = document.getElementById('venue-data');
+    const xmlData = new DOMParser().parseFromString(xmlScript.textContent, 'application/xml');
+    const venues = xmlData.querySelectorAll('venue');
+
+    // Event listener for venue input to provide autocomplete functionality
+    const venueInput = document.getElementById('venue');
+    venueInput.addEventListener('input', function() {
+        const input = venueInput.value.trim().toUpperCase();
+        if (input.length === 2) {
+            let fullName = '';
+            for (let i = 0; i < venues.length; i++) {
+                const abbreviation = venues[i].getAttribute('abbreviation');
+                const name = venues[i].getAttribute('name');
+                if (abbreviation === input) {
+                    fullName = name;
+                    break;
+                }
+            }
+            if (fullName !== '') {
+                venueInput.value = fullName;
+            }
+        }
+    });
+    
+   
+});
+        document.addEventListener('DOMContentLoaded', () => {
+    const copyTextElements = document.querySelectorAll('.copy-text');
+
+      copyTextElements.forEach(element => {
+        element.addEventListener('click', () => {
+            const textToCopy = element.getAttribute('data-copy');
+            navigator.clipboard.writeText(textToCopy).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        });
+    });
+});
+
+    
+</script>
+
+</body>
+</html>
