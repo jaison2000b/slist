@@ -1,0 +1,53 @@
+[
+  {
+    "color": "green",
+    "loc": ["s.f.", "sf", "san francisco"]
+  },
+  {
+    "color": "blue",
+    "loc": ["oak", "oakland"]
+  },
+  {
+    "color": "red",
+    "loc": [
+      "marin","mill valley","sausalito","napa","petaluma","san rafael",
+      "larkspur","north bay","santa rosa","windsor","novato","rohnert park",
+      "graton","sonoma"
+    ]
+  },
+  {
+    "color": "yellow",
+    "loc": [
+      "brisbane","daly city","pacifica","montara","half moon bay",
+      "south city","san bruno","millbrae","burlingame","san mateo",
+      "hillsborough","foster city","belmont","san carlos","redwood city",
+      "la honda","woodside","los altos","atherton","menlo park","palo alto","epa"
+    ]
+  },
+  {
+    "color": "magenta",
+    "loc": ["berkeley","kensington"]
+  },
+  {
+    "color": "cyan",
+    "loc": [
+      "hercules","pinole","rodeo","richmond","emeryville","el cerrito",
+      "canyon","orinda","lafayette","walnut creek","martinez","antioch",
+      "pittsburg","bay point","crockett","san ramon","danville","dublin",
+      "pleasanton","livermore","hayward","san leandro","san lorenzo",
+      "ashland","castro valley","alameda","fremont","union city","niles"
+    ]
+  },
+  {
+    "color": "black",
+    "loc": [
+      "south bay","felton","davenport","santa cruz","capitola","ben lomond",
+      "boulder creek","aptos","watsonville","sand city","moss landing",
+      "monterey","salinas","carmel","gilroy","hollister","morgan hill",
+      "san martin","blossom hill","san jose","campbell","holy city",
+      "los gatos","mountain view","sunnyvale","milpitas"
+    ]
+  }
+]
+
+
