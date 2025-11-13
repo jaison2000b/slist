@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<venues><venue id="1">
+    <pn>3rd And Army</pn>
+    <ln>3rd and Army Skatepark, S.F.</ln>
+    <color>green</color>
+  </venue>
+  <venue id="2">
+    <pn>4-star           </pn>
+    <ln>4-Star Theater, S.F.</ln>
+    <color>green</color></venue>
+  <venue id="3"><pn>Alameda Skatepark</pn><ln>Alameda Skatepark, 1177 W Red Line Avenue, Alameda</ln><color>cyan</color></venue><venue id="4">
+    <pn>Arlene Francis</pn>
+    <ln>Arlene Francis Center, 99 6th Street, Santa Rosa</ln>
+  <color>red</color></venue>
+  <venue id="5"><pn>Beauty Supply</pn><ln>Beauty Supply Shop above Tay Ho, 344 12th Street, Oakland</ln><color>blue</color></venue><venue id="6">
+    <pn>Berkeley Art house</pn>
+    <ln>the Berkeley Art House, 2905 Shattack Ave, Berkeley</ln>
+  <color>magenta</color></venue>
+  <venue id="7">
+    <pn>Bottom Of The Hill</pn>
+    <ln>Bottom Of The Hill, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="8">
+    <pn>Caravan</pn>
+    <ln>The Caravan, San Jose</ln>
+  <color>black</color></venue>
+  <venue id="9"><pn>Crepe Place</pn><ln>The Crepe Place, 1134 Soquel Avenue, Santa Cruz</ln><color>black</color></venue><venue id="10">
+    <pn>Crybaby</pn>
+    <ln>Crybaby 1928 Telegraph Ave, Oakland</ln>
+  <color>blue</color></venue>
+  <venue id="12">
+    <pn>Depot</pn>
+    <ln>The Depot, 1650 Holloway, SF State, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="13">
+    <pn>El Rio</pn>
+    <ln>El Rio, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="14"><pn>Eli's</pn><ln>Eli's Mile High Club, Oakland</ln><color>blue</color></venue><venue id="15">
+    <pn>First Church</pn>
+    <ln>First Church of The Buzzard, Oakland</ln>
+  <color>blue</color></venue>
+  <venue id="16">
+    <pn>Gestalt</pn>
+    <ln>Gestalt, 3159 16th Street, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="17"><pn>Great American</pn><ln>Great American Music Hall, S.F.</ln><color>green</color></venue><venue id="18"><pn>Heshers</pn><ln>Heshers Pizza, 206 Broadway, Oakland</ln><color>blue</color></venue><venue id="19">
+    <pn>High Voltage</pn>
+    <ln>High Voltage, 1824 W. San Carlos Street ,San Jose</ln>
+  </venue>
+  <venue id="20"><pn>Hotboys/fiftys</pn><ln>Hotboys/Fifty's Liquor, 27826 Mission Blvd, Hayward</ln><color>cyan</color></venue><venue id="21">
+    <pn>Hotel Utah</pn>
+    <ln>Hotel Utah Saloon, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="22"><pn>Jade Cathey</pn><ln>Jade Cathey Resturant, 1339 North 1st Street, San Jose</ln><color>black</color></venue><venue id="23"><pn>Jury Room SC</pn><ln>the Jury Room, 712 Ocean Street, Santa Cruz</ln><color>black</color></venue><venue id="24">
+    <pn>K.O.</pn>
+    <ln>the Knockout, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="25">
+    <pn>Kilowatt</pn>
+    <ln>Kilowatt, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="26">
+    <pn>Little Hill</pn>
+    <ln>the Little Hill Lounge, 10753 San Pablo Ave, El Cerrito</ln>
+  <color>cyan</color></venue>
+  <venue id="27"><pn>Mabuhay</pn><ln>Mabuhay Gardens, 443 Broadway, S.F.</ln><color>green</color></venue><venue id="28"><pn>Makeout Room</pn><ln>Makeout Room, S.F.</ln><color>green</color></venue><venue id="29">
+    <pn>Mothbelly</pn>
+    <ln>Mothbelly Gallery, 912 Larkin Street, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="30"><pn>Music City</pn><ln>Music City, 1355 Bush Street, S.F.</ln><color>green</color></venue><venue id="31">
+    <pn>Neck Of The Woods</pn>
+    <ln>Neck Of The Woods, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="32">
+    <pn>New Farm</pn>
+    <ln> The New Farm, 10 Cargo Way, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="33">
+    <pn>Oakland Secret</pn>
+    <ln>Oakland Secret Gallery, Oakland</ln>
+  <color>blue</color></venue>
+  <venue id="34">
+    <pn>Open SJ</pn>
+    <ln>Open Gallery, 38 S. 2nd Street, San Jose</ln>
+  <color>black</color></venue>
+  <venue id="35"><pn>Peacock Lounge</pn><ln>the Peacock Lounge, S.F.</ln><color>green</color></venue><venue id="36"><pn>Phoenix</pn><ln>Phoenix Theater, Petaluma</ln><color>red</color></venue><venue id="37">
+    <pn>Prop Shop</pn>
+    <ln>The Prop Shop, 518 11th Street, Richmond</ln>
+  <color>cyan</color></venue>
+  <venue id="38"><pn>Purple House</pn><ln>the Purple House, 5716 Genoa Street, Oakland</ln><color>blue</color></venue><venue id="39"><pn>Pussy Palace</pn><ln>the Pussy Palace, Oakland</ln><color>blue</color></venue><venue id="40"><pn>Revolution Cafe</pn><ln>Revolution Cafe, 1610 7th Street, West Oakland</ln><color>blue</color></venue><venue id="41">
+    <pn>SC Vet's Hall</pn>
+    <ln>the Vet's Hall, 846 Front Street, Santa Cruz</ln>
+  <color>black</color></venue>
+  <venue id="42">
+    <pn>Spacement</pn>
+    <ln>the Spacement, 227 Dorland Street, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="43">
+    <pn>Spire</pn>
+    <ln>Spire Church, 825 Athens Ave, Oakland</ln>
+  <color>blue</color></venue>
+  <venue id="44">
+    <pn>Stay Gold</pn>
+    <ln>Stay Gold Deli, Oakland</ln>
+  <color>blue</color></venue>
+  <venue id="45">
+    <pn>Stoney Cat</pn>
+    <ln>Stoney Cat Studios, 37500 Centralmont Place, Fremont</ln>
+  <color>cyan</color></venue>
+  <venue id="46"><pn>Subrosa</pn><ln>Subrosa Community Space, Santa Cruz</ln><color>black</color></venue><venue id="47">
+    <pn>Tamarack</pn>
+    <ln>the Tamarack, Oakland</ln>
+  <color>blue</color></venue>
+  <venue id="48"><pn>Tequila Mockingbird</pn><ln>Tequila Mockingbird, 86 2nd Street, S.F.</ln><color>green</color></venue><venue id="51"><pn>The Shop, Santa Rosa</pn><ln>The Shop, Santa Rosa</ln><color>red</color></venue><venue id="53">
+    <pn>Thee Parkside</pn>
+    <ln>Thee Parkside, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="54">
+    <pn>Thrillhouse</pn>
+    <ln>Thrillhouse Records, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="55"><pn>Toots Tavern</pn><ln>Toot's Tavern, Crockett</ln><color>cyan</color></venue><venue id="56">
+    <pn>Toxic Beach</pn>
+    <ln>Toxic Beach, S.F.</ln>
+  <color>green</color></venue>
+  <venue id="57"><pn>Urga Deva Loka</pn><ln>Urga Deva Loka, 1035 22nd Avenue Unit 14, Oakland</ln><color>blue</color></venue><venue id="58">
+    <pn>Victory Stables</pn>
+    <ln>Victory Stables, 2328 San Pablo Ave, Oakland</ln>
+  <color>blue</color></venue>
+<venue id="59"><pn>Visuvio</pn><ln>Jack Kerouac Alley, S.F.</ln><color>green</color></venue><venue id="60"><pn>Winters</pn><ln>Winters Tavern, Pacifica</ln><color>yellow</color></venue></venues>
